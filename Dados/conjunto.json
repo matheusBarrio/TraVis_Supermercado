@@ -18,7 +18,7 @@
 	}, 	 	
 	{
 		"qt": 5240,
-		"produto": "SELF SERVICE  K"
+		"produto": "SELF SERVICE  KG"
 	},
 	{
 		"qt": 1999,
@@ -38,7 +38,7 @@
 	},
 	{
 		"qt": 23276,
-		"produto": "COENTRO UN"
+		"produto": "COENTRO UND"
 	},
 	{
 		"qt": 33718,
@@ -46,7 +46,7 @@
 	},
 	{
 		"qt": 2164,
-		"produto": "SACO DE GELO EVEREST 3K"
+		"produto": "SACO DE GELO EVEREST 3KG"
 	},
 	{
 		"qt": 754,
@@ -54,7 +54,7 @@
 	},
 	{
 		"qt": 1612,
-		"produto": "CHOC BIS LACTA TRAD 126G AO LEIT"
+		"produto": "CHOC BIS LACTA TRAD 126G AO LEITE"
 	},
 	{
 		"qt": 352,
@@ -62,7 +62,7 @@
 	},
 	{
 		"qt": 1822,
-		"produto": "SELF SERVICE  CAFE DA MANHA K"
+		"produto": "SELF SERVICE  CAFE DA MANHA KG"
 	},
 	{
 		"qt": 14066,
@@ -70,7 +70,7 @@
 	},
 	{
 		"qt": 8308,
-		"produto": "LEITE COND BETANIA 395"
+		"produto": "LEITE COND BETANIA 395G"
 	},
 	{
 		"qt": 104,
@@ -78,7 +78,7 @@
 	},
 	{
 		"qt": 2558,
-		"produto": "REF COCA COLA COLOR 350M"
+		"produto": "REF COCA COLA COLOR 350ML"
 	},
 	{
 		"qt": 26162,
@@ -86,11 +86,11 @@
 	},
 	{
 		"qt": 2623,
-		"produto": "SALGADO FORNO BGM UN"
+		"produto": "SALGADO FORNO BGM UND"
 	},
 	{
 		"qt": 4261,
-		"produto": "SALGADO FRITURA BGM UN"
+		"produto": "SALGADO FRITURA BGM UND"
 	},
 	{
 		"qt": 1926,
@@ -98,7 +98,7 @@
 	},
 	{
 		"qt": 6426,
-		"produto": "LEITE PO NINHO 800G SACHET INTEGRA"
+		"produto": "LEITE PO NINHO 800G SACHET INTEGRAL"
 	},
 	{
 		"qt": 230,
@@ -110,7 +110,7 @@
 	},
 	{
 		"qt": 5645,
-		"produto": "PAO CARIOCA FRANCES BGM K"
+		"produto": "PAO CARIOCA FRANCES BGM KG"
 	},
 	{
 		"qt": 1709,
@@ -126,19 +126,19 @@
 	},
 	{
 		"qt": 4517,
-		"produto": "PAO CARIOCA PANNEMIX K"
+		"produto": "PAO CARIOCA PANNEMIX KG"
 	},
 	{
 		"qt": 111,
-		"produto": "PAO CARIOCA INTEGRAL BGM K"
+		"produto": "PAO CARIOCA INTEGRAL BGM KG"
 	},
 	{
 		"qt": 974,
-		"produto": "PAO SOVADO BGM K"
+		"produto": "PAO SOVADO BGM KG"
 	},
 	{
 		"qt": 3715,
-		"produto": "PRESUNTO DE PERU SADIA KG FAT PCS"
+		"produto": "PRESUNTO DE PERU SADIA KG FAT PCSL"
 	},
 	{
 		"qt": 753,
@@ -150,11 +150,11 @@
 	},
 	{
 		"qt": 2003,
-		"produto": "SELF SERVICE  CAFE C LEITE U"
+		"produto": "SELF SERVICE  CAFE C LEITE UND"
 	},
 	{
 		"qt": 824,
-		"produto": "PREPARO H2OH LIMONETO SHRINK 500M"
+		"produto": "PREPARO H2OH LIMONETO SHRINK 500ML"
 	},
 	{
 		"qt": 919,
@@ -174,7 +174,7 @@
 	},
 	{
 		"qt": 356,
-		"produto": "SALGADO MINI BGM K"
+		"produto": "SALGADO MINI BGM KG"
 	},
 	{
 		"qt": 1409,
@@ -266,31 +266,19 @@
 	},
 	{
 		"qt": 807,
-		"produto": "SUCO DE LARANJA  300ML COP"
+		"produto": "SUCO DE LARANJA  300ML COPO"
 	},
 	{
 		"qt": 197,
-		"produto": "SUCO DE LARANJA  500ML JARR"
+		"produto": "SUCO DE LARANJA  500ML JARRA"
 	},
 	{
 		"qt": 116,
-		"produto": "SUCO DEL VALLE FRESH PET 250ML LIMA"
+		"produto": "SUCO DEL VALLE FRESH PET 250ML LIMAO"
 	},
 	{
 		"qt": 5645,
 		"produto": "PAO CARIOCA FRANCES BGM KG"
-	},
-	{
-		"qt": 974,
-		"produto": "PAO SOVADO BGM KG"
-	},
-	{
-		"qt": 3715,
-		"produto": "PRESUNTO DE PERU SADIA KG FAT PCSL"
-	},
-	{
-		"qt": 2623,
-		"produto": "SALGADO FORNO BGM UND"
 	},
 	{
 		"qt": 7,
@@ -307,68 +295,68 @@
 		"target": "CAFE TORRADO STA CLARA 250G PREMIUM VACU"
 	},
 	{
-		"source": "AGUA MINERAL CRYSTAL 500ML C GAS PE", 
-		"target": "SELF SERVICE  K"
+		"source": "AGUA MINERAL CRYSTAL 500ML C GAS PET", 
+		"target": "SELF SERVICE  KG"
 	},
 	{
-		"source": "AGUA MINERAL CRYSTAL 500ML S GAS PE", 
-		"target": "SELF SERVICE  K"
+		"source": "AGUA MINERAL CRYSTAL 500ML S GAS PET", 
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "AGUA MINERAL INDAIA 500ML S GAS", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "CAJUINA ORGANICA TIJUCA LT 269ML", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "CEBOLINHA UND", 
-		"target": "COENTRO UN"
+		"target": "COENTRO UND"
 	},
 	{
 		"source": "CERVEJA SKOL 350ML LATA", 
-		"target": "SACO DE GELO EVEREST 3K"
+		"target": "SACO DE GELO EVEREST 3KG"
 	},
 	{
 		"source": "CHOC BIS 126G LAKA", 
-		"target": "CHOC BIS LACTA TRAD 126G AO LEIT"
+		"target": "CHOC BIS LACTA TRAD 126G AO LEITE"
 	},
 	{
 		"source": "CHOC QUENTE  GRANDE", 
-		"target": "SELF SERVICE  CAFE DA MANHA K"
+		"target": "SELF SERVICE  CAFE DA MANHA KG"
 	},
 	{
 		"source": "CREME DE LEITE ITAMBE 200G TP", 
-		"target": "LEITE COND BETANIA 395"
+		"target": "LEITE COND BETANIA 395G"
 	},
 	{
 		"source": "FOCACCIA  KG", 
-		"target": "REF COCA COLA COLOR 350M"
+		"target": "REF COCA COLA COLOR 350ML"
 	},
 	{
 		"source": "LEITE AROMAT NESCAU PRONTINHO 200ML TRADICIONAL", 
-		"target": "SALGADO FORNO BGM UN"
+		"target": "SALGADO FORNO BGM UND"
 	},
 	{
 		"source": "LEITE AROMAT NESCAU PRONTINHO 200ML TRADICIONAL", 
-		"target": "SALGADO FRITURA BGM UN"
+		"target": "SALGADO FRITURA BGM UND"
 	},
 	{
 		"source": "LEITE AROMAT NESCAU PRONTINHO 200ML TRADICIONAL", 
-		"target": "SELF SERVICE  CAFE DA MANHA K"
+		"target": "SELF SERVICE  CAFE DA MANHA KG"
 	},
 	{
 		"source": "LEITE COND MOCA 395G LATA", 
-		"target": "LEITE PO NINHO 800G SACHET INTEGRA"
+		"target": "LEITE PO NINHO 800G SACHET INTEGRAL"
 	},
 	{
 		"source": "MINI BOLO DE ROLO DE PERNAMBUCO 60G", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "MORTADELA PERDIGAO KG FAT BOLOG OURO", 
-		"target": "PAO CARIOCA FRANCES BGM K"
+		"target": "PAO CARIOCA FRANCES BGM KG"
 	},
 	{
 		"source": "MORTADELA PERDIGAO KG FAT BOLOG OURO", 
@@ -380,19 +368,19 @@
 	},
 	{
 		"source": "PAO BOLA PANNEMIX KG", 
-		"target": "PAO CARIOCA PANNEMIX K"
+		"target": "PAO CARIOCA PANNEMIX KG"
 	},
 	{
 		"source": "PAO CARIOCA FRANCES BGM KG", 
-		"target": "PAO CARIOCA INTEGRAL BGM K"
+		"target": "PAO CARIOCA INTEGRAL BGM KG"
 	},
 	{
 		"source": "PAO CARIOCA FRANCES BGM KG", 
-		"target": "PAO SOVADO BGM K"
+		"target": "PAO SOVADO BGM KG"
 	},
 	{
 		"source": "PAO CARIOCA FRANCES BGM KG", 
-		"target": "PRESUNTO DE PERU SADIA KG FAT PCS"
+		"target": "PRESUNTO DE PERU SADIA KG FAT PCSL"
 	},
 	{
 		"source": "PAO CARIOCA FRANCES BGM KG", 
@@ -404,23 +392,23 @@
 	},
 	{
 		"source": "PAO CARIOCA FRANCES BGM KG", 
-		"target": "SELF SERVICE  CAFE DA MANHA K"
+		"target": "SELF SERVICE  CAFE DA MANHA KG"
 	},
 	{
 		"source": "PAO DE QUEIJO BGM KG", 
-		"target": "SELF SERVICE  CAFE C LEITE U"
+		"target": "SELF SERVICE  CAFE C LEITE UND"
 	},
 	{
 		"source": "PAO SOVADO BGM KG", 
-		"target": "SELF SERVICE  CAFE DA MANHA K"
+		"target": "SELF SERVICE  CAFE DA MANHA KG"
 	},
 	{
-		"source": "PREPARO H2OH LIMONETO SHRINK 500M", 
-		"target": "SELF SERVICE  K"
+		"source": "PREPARO H2OH LIMONETO SHRINK 500ML", 
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "PREPARO LIQ AQUARIUS FRESH 510ML LIMAO", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "PRESUNTO DE PERU PERDIGAO KG FAT", 
@@ -436,39 +424,39 @@
 	},
 	{
 		"source": "REF COCA COLA 1L PET", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF COCA COLA 250ML PET", 
-		"target": "SALGADO FORNO BGM UN"
+		"target": "SALGADO FORNO BGM UND"
 	},
 	{
 		"source": "REF COCA COLA 250ML PET", 
-		"target": "SALGADO FRITURA BGM UN"
+		"target": "SALGADO FRITURA BGM UND"
 	},
 	{
 		"source": "REF COCA COLA 250ML PET", 
-		"target": "SALGADO MINI BGM K"
+		"target": "SALGADO MINI BGM KG"
 	},
 	{
 		"source": "REF COCA COLA 250ML PET", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF COCA COLA 600ML", 
-		"target": "SALGADO FRITURA BGM UN"
+		"target": "SALGADO FRITURA BGM UND"
 	},
 	{
 		"source": "REF COCA COLA 600ML", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF COCA COLA COLOR 350ML", 
-		"target": "SALGADO FRITURA BGM UN"
+		"target": "SALGADO FRITURA BGM UND"
 	},
 	{
 		"source": "REF COCA COLA COLOR 350ML", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF COCA COLA LATA 220ML", 
@@ -476,43 +464,43 @@
 	},
 	{
 		"source": "REF COCA COLA LATA 220ML", 
-		"target": "SALGADO FRITURA BGM UN"
+		"target": "SALGADO FRITURA BGM UND"
 	},
 	{
 		"source": "REF COCA COLA LATA 220ML", 
-		"target": "SELF SERVICE  CAFE DA MANHA K"
+		"target": "SELF SERVICE  CAFE DA MANHA KG"
 	},
 	{
 		"source": "REF COCA COLA ZERO 250ML PET", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF COCA COLA ZERO 350ML", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF FANTA 250ML PET LARANJA", 
-		"target": "SALGADO FRITURA BGM UN"
+		"target": "SALGADO FRITURA BGM UNG"
 	},
 	{
 		"source": "REF FANTA 250ML PET LARANJA", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF FANTA 250ML PET UVA", 
-		"target": "SALGADO FRITURA BGM UN"
+		"target": "SALGADO FRITURA BGM UND"
 	},
 	{
 		"source": "REF FANTA 250ML PET UVA", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF FANTA 350ML UVA", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF GUARANA ANTARCTICA 1L", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF GUARANA ANTARCTICA 237ML PET", 
@@ -520,47 +508,47 @@
 	},
 	{
 		"source": "REF GUARANA ANTARCTICA 237ML PET", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF GUARANA ANTARCTICA 350ML DIET", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF GUARANA ANTARCTICA 350ML LATA", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF KUAT 250ML", 
-		"target": "SALGADO FRITURA BGM UN"
+		"target": "SALGADO FRITURA BGM UND"
 	},
 	{
 		"source": "REF PEPSI COLA 350ML", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF SAO GERALDO 250ML CAJU", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF SCHWEPPES 350ML CITRUS", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "REF SPRITE 350ML", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "SALADA DE FRUTA  KG", 
-		"target": "SELF SERVICE  CAFE DA MANHA K"
+		"target": "SELF SERVICE  CAFE DA MANHA KG"
 	},
 	{
 		"source": "SALADA DE FRUTA  KG", 
-		"target": "SELF SERVICE  K"
+		"target": "SELF SERVICE  KG"
 	},
 	{
 		"source": "SALGADO FORNO BGM UND", 
-		"target": "SALGADO FRITURA BGM UN"
+		"target": "SALGADO FRITURA BGM UND"
 	},
 	{
 		"source": "SALGADO FORNO BGM UND", 
@@ -572,15 +560,15 @@
 	},
 	{
 		"source": "SELF SERVICE CAFE GRANDE UND", 
-		"target": "SELF SERVICE  CAFE DA MANHA K"
+		"target": "SELF SERVICE  CAFE DA MANHA KG"
 	},
 	{
 		"source": "SELF SERVICE CAFE PEQUENO UND", 
-		"target": "SELF SERVICE  CAFE DA MANHA K"
+		"target": "SELF SERVICE  CAFE DA MANHA KG"
 	},
 	{
-		"source": "SELF SERVICE  CAFE C LEITE UN", 
-		"target": "SELF SERVICE  CAFE DA MANHA K"
+		"source": "SELF SERVICE  CAFE C LEITE UND", 
+		"target": "SELF SERVICE  CAFE DA MANHA KG"
 	},
 	{
 		"source": "SELF SERVICE  CAFE DA MANHA KG", 
@@ -588,7 +576,7 @@
 	},
 	{
 		"source": "SELF SERVICE  CAFE DA MANHA KG", 
-		"target": "SUCO DE LARANJA  300ML COP"
+		"target": "SUCO DE LARANJA  300ML COPO"
 	},
 	{
 		"source": "SELF SERVICE  KG", 
@@ -596,15 +584,15 @@
 	},
 	{
 		"source": "SELF SERVICE  KG", 
-		"target": "SUCO DE LARANJA  300ML COP"
+		"target": "SUCO DE LARANJA  300ML COPO"
 	},
 	{
 		"source": "SELF SERVICE  KG", 
-		"target": "SUCO DE LARANJA  500ML JARR"
+		"target": "SUCO DE LARANJA  500ML JARRA"
 	},
 	{
 		"source": "SELF SERVICE  KG", 
-		"target": "SUCO DEL VALLE FRESH PET 250ML LIMA"
+		"target": "SUCO DEL VALLE FRESH PET 250ML LIMAO"
 	},
 	{
 		"source": "SELF SERVICE  KG", 
