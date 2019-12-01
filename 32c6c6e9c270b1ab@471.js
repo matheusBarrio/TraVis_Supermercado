@@ -1,4 +1,8 @@
-// https://observablehq.com/@matheusbarrio/relatorio-um-quadro-sobre-um-supermercado-em-fortaleza@425
+// https://observablehq.com/@matheusbarrio/relatorio-um-quadro-sobre-um-supermercado-em-fortaleza@471
+import define1 from "./951504a5072a8921@1196.js";
+import define2 from "./576f8943dbfbd395@109.js";
+import define3 from "./a0671a9883261b36@33.js";
+
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["md"], function(md){return(
@@ -130,6 +134,47 @@ md` <p> Agora uma visão mais específica dos produtos que compõe a cesta bási
                   ])
   dc.renderAll()
   return view      
+}
+);
+  main.variable(observer()).define(["md"], function(md){return(
+md` <h4> Composição da Cesta Básica </h4>`
+)});
+  main.variable(observer("chart")).define("chart", ["pie","dataset_composicao_cesta","d3","width","height","color","arc","arcLabel"], function(pie,dataset_composicao_cesta,d3,width,height,color,arc,arcLabel)
+{
+  const arcs = pie(dataset_composicao_cesta);
+
+  const svg = d3.create("svg")
+      .attr("viewBox", [-width / 2, -height / 2, width, height]);
+
+  svg.append("g")
+      .attr("stroke", "white")
+    .selectAll("path")
+    .data(arcs)
+    .join("path")
+      .attr("fill", d => color(d.data.familia))
+      .attr("d", arc)
+    .append("title")
+      .text(d => `${d.data.familia}: ${d.data.valor.toLocaleString()}`);
+
+  svg.append("g")
+      .attr("font-family", "sans-serif")
+      .attr("font-size", 12)
+      .attr("text-anchor", "middle")
+    .selectAll("text")
+    .data(arcs)
+    .join("text")
+      .attr("transform", d => `translate(${arcLabel.centroid(d)})`)
+      .call(text => text.append("tspan")
+          .attr("y", "-0.4em")
+          .attr("font-weight", "bold")
+          .text(d => d.data.familia))
+      .call(text => text.filter(d => (d.endAngle - d.startAngle) > 0.25).append("tspan")
+          .attr("x", 0)
+          .attr("y", "0.7em")
+          .attr("fill-opacity", 0.7)
+          .text(d => d.data.valor.toLocaleString()));
+
+  return svg.node();
 }
 );
   main.variable(observer()).define(["md"], function(md){return(
@@ -719,6 +764,49 @@ d3.csv("https://raw.githubusercontent.com/matheusBarrio/TraVis_Supermercado/mast
   return data
 })
 )});
+  main.variable(observer("dataset_composicao_cesta")).define("dataset_composicao_cesta", ["d3"], function(d3){return(
+d3.csv("https://raw.githubusercontent.com/matheusBarrio/TraVis_Supermercado/master/Dados/composicao_cesta.csv")
+)});
+  main.variable(observer("pie")).define("pie", ["d3"], function(d3){return(
+d3.pie()
+    .sort(null)
+    .value(d => d.valor)
+)});
+  main.variable(observer("height")).define("height", ["width"], function(width){return(
+Math.min(width, 500)
+)});
+  main.variable(observer("arc")).define("arc", ["d3","width","height"], function(d3,width,height){return(
+d3.arc()
+    .innerRadius(0)
+    .outerRadius(Math.min(width, height) / 2 - 1)
+)});
+  main.variable(observer("arcLabel")).define("arcLabel", ["width","height","d3"], function(width,height,d3)
+{
+  const radius = Math.min(width, height) / 2 * 0.8;
+  return d3.arc().innerRadius(radius).outerRadius(radius);
+}
+);
+  main.variable(observer("color")).define("color", ["d3","dataset_composicao_cesta"], function(d3,dataset_composicao_cesta){return(
+d3.scaleOrdinal()
+    .domain(dataset_composicao_cesta.map(d => d.familia))
+    .range(d3.quantize(t => d3.interpolateSpectral(t * 0.8 + 0.1), dataset_composicao_cesta.length).reverse())
+)});
+  const child1 = runtime.module(define1);
+  main.import("chartGen", child1);
+  main.import("pieGen", child1);
+  main.import("globals", child1);
+  main.import("setup", child1);
+  main.import("wrap", child1);
+  main.import("measureWidth", child1);
+  main.import("rasterize", child1);
+  main.import("toDataURL", child1);
+  main.variable(observer("d35")).define("d35", ["require"], function(require){return(
+require("d3@5")
+)});
+  const child2 = runtime.module(define2);
+  main.import("rasterize", child2);
+  const child3 = runtime.module(define3);
+  main.import("DDGLogo", child3);
   main.variable(observer("facts4")).define("facts4", ["crossfilter","dataset_cerveja"], function(crossfilter,dataset_cerveja){return(
 crossfilter(dataset_cerveja)
 )});
@@ -933,7 +1021,7 @@ dateDim2.group().reduceSum(function(d) {
 )});
   main.variable(observer("miojoByMonthGroup")).define("miojoByMonthGroup", ["dateDim2"], function(dateDim2){return(
 dateDim2.group().reduceSum(function(d) {
-    if(d.produto == "MAC INSTAN NISSIN TALHARIM 99G CARNE C TO") {
+    if(d.produto == "131.92") {
       return d.preco_medio
     }  
     else {

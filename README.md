@@ -1,6 +1,6 @@
 # Relatório: Um quadro sobre um supermercado em Fortaleza
 
-https://observablehq.com/@matheusbarrio/relatorio-um-quadro-sobre-um-supermercado-em-fortaleza@425
+https://observablehq.com/@matheusbarrio/relatorio-um-quadro-sobre-um-supermercado-em-fortaleza@471
 
 View this notebook in your browser by running a web server in this folder. For
 example:
