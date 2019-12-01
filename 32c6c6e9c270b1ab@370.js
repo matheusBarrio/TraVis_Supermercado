@@ -1,4 +1,4 @@
-// https://observablehq.com/@matheusbarrio/relatorio-um-quadro-sobre-um-supermercado-em-fortaleza@350
+// https://observablehq.com/@matheusbarrio/relatorio-um-quadro-sobre-um-supermercado-em-fortaleza@370
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["md"], function(md){return(
@@ -57,6 +57,9 @@ dateDim.group().reduceSum(d => d.ipca)
   return view      
 }
 );
+  main.variable(observer()).define(["md"], function(md){return(
+md`<p>É possível perceber que o preço da cesta básica varia acima da inflação IPCA. A comparação pode não ser a mais adequada, levando em consideração que o IPCA é um índice que considera outros fatores que não só os custos dos produtos da cesta básica. Porém, o salario mínimo é reajustado em função deste índice. Portanto, é possível dizer que o cidadão perde poder de compra sobre a cesta básica.</p>`
+)});
   main.variable(observer()).define(["html"], function(html){return(
 html`Esta célula inclui o css do dc.
 <style>
@@ -717,6 +720,9 @@ md` <h2> Sessão 2: Sazionalidade </h2>
   return view      
 }
 );
+  main.variable(observer()).define(["md"], function(md){return(
+md`<p> Nesse gráfico conseguimos ver que os preços das frutas sofrem bastante da sazionalidade. O abacate, por exemplo, tem os seus menores preços nos períodos de Feveriro a Abril, justamente no tempo de colheita deste fruto.</p>`
+)});
   main.variable(observer("dataset_frutas")).define("dataset_frutas", ["d3"], function(d3){return(
 d3.csv("https://raw.githubusercontent.com/matheusBarrio/TraVis_Supermercado/master/Dados/frutas.csv").then(function(data){
   // formatando nossos dados
@@ -806,6 +812,9 @@ dateDim3.group().reduceSum(function(d) {
   return view      
 }
 );
+  main.variable(observer()).define(["md"], function(md){return(
+md`<p> Já no consumo de bebida alcólica, podemos observar alguns picos. Eles ocorrem nos finais de semana (sexta, sabado e domingo) e feriados (01/05 - Dia do Trabalho), por motivos óbvios. :) </p>`
+)});
   main.variable(observer("dataset_cerveja")).define("dataset_cerveja", ["d3"], function(d3){return(
 d3.csv("https://raw.githubusercontent.com/matheusBarrio/TraVis_Supermercado/master/Dados/cerveja.csv").then(function(data){
   // formatando nossos dados
@@ -829,7 +838,7 @@ dateDim4.group().reduceSum(d => d.qt)
 )});
   main.variable(observer()).define(["md"], function(md){return(
 md` <h2> Sessão 3: Associações </h2>
-<p> Quais são as associações entre produtos, ou seja, quando um produto é comprado, qual é o outro produto que tem a maior probabilidade de ser comprado? Pra entender melhor essa relação de consumo, rodamos um Apriori sobre um banco de notas fiscais de junho de 2018, vamos ver os resultados. </p>`
+<p> Quais são as associações entre produtos, ou seja, quando um produto é comprado, qual é o outro produto que tem a maior probabilidade de ser comprado junto? Pra entender melhor essa relação de consumo, rodamos um Apriori sobre um banco de notas fiscais de junho de 2018, vamos ver os resultados. </p>`
 )});
   main.variable(observer("buildvis")).define("buildvis", ["d3","DOM","dataset_associacao","drag"], function(d3,DOM,dataset_associacao,drag)
 {
@@ -890,6 +899,9 @@ md` <h2> Sessão 3: Associações </h2>
   return svg.node()
 }
 );
+  main.variable(observer()).define(["md"], function(md){return(
+md`<p> Algumas relações bem interessantes podem ser descobertas, por exemplo, a associação entre coentro e cebolinha que é o cheiro-verde, ou a associação entre cerveja e saco de gelo. Informações como essa podem ser fundamentais para montagem de gôndolas de supermercado, visando alcançar máxima eficiência. </p>`
+)});
   main.variable(observer("dataset_associacao")).define("dataset_associacao", ["d3"], function(d3){return(
 d3.json("https://raw.githubusercontent.com/matheusBarrio/TraVis_Supermercado/master/Dados/conjunto.json")
 )});
