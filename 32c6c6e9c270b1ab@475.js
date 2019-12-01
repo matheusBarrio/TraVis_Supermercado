@@ -1,8 +1,4 @@
-// https://observablehq.com/@matheusbarrio/relatorio-um-quadro-sobre-um-supermercado-em-fortaleza@471
-import define1 from "./951504a5072a8921@1196.js";
-import define2 from "./576f8943dbfbd395@109.js";
-import define3 from "./a0671a9883261b36@33.js";
-
+// https://observablehq.com/@matheusbarrio/relatorio-um-quadro-sobre-um-supermercado-em-fortaleza@475
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["md"], function(md){return(
@@ -791,22 +787,6 @@ d3.scaleOrdinal()
     .domain(dataset_composicao_cesta.map(d => d.familia))
     .range(d3.quantize(t => d3.interpolateSpectral(t * 0.8 + 0.1), dataset_composicao_cesta.length).reverse())
 )});
-  const child1 = runtime.module(define1);
-  main.import("chartGen", child1);
-  main.import("pieGen", child1);
-  main.import("globals", child1);
-  main.import("setup", child1);
-  main.import("wrap", child1);
-  main.import("measureWidth", child1);
-  main.import("rasterize", child1);
-  main.import("toDataURL", child1);
-  main.variable(observer("d35")).define("d35", ["require"], function(require){return(
-require("d3@5")
-)});
-  const child2 = runtime.module(define2);
-  main.import("rasterize", child2);
-  const child3 = runtime.module(define3);
-  main.import("DDGLogo", child3);
   main.variable(observer("facts4")).define("facts4", ["crossfilter","dataset_cerveja"], function(crossfilter,dataset_cerveja){return(
 crossfilter(dataset_cerveja)
 )});
